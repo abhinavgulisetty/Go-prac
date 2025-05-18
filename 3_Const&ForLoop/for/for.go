@@ -18,4 +18,7 @@ func main() {
 		fmt.Println("Infinite Loop")
 		break // to break the infinite loop
 	}
+	for i := range 11{
+		fmt.Println(i);
+	}
 }
