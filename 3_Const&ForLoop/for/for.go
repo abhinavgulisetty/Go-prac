@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	//basic for loop
+	//basic while loop kinda
 	i := 1
 	for i <= 5 {
 		fmt.Println(i)
@@ -18,7 +18,7 @@ func main() {
 		fmt.Println("Infinite Loop")
 		break // to break the infinite loop
 	}
-	for i := range 11{
-		fmt.Println(i);
+	for i := range 11 {
+		fmt.Println(i)
 	}
 }
